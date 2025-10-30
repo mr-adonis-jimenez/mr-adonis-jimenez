@@ -1,7 +1,6 @@
 """Unit tests for the dataset_info.yaml fixes."""
 
 import unittest
-from pathlib import Path
 from zea.zea.data.datasets import convert_tuples_to_lists, Folder, Dataset
 
 
