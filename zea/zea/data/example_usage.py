@@ -1,6 +1,5 @@
 """Example usage of the dataset module with all the fixes applied."""
 
-from pathlib import Path
 from datasets import Folder, Dataset, search_file_tree
 
 # Example 1: Using search_file_tree with tuple-to-list conversion
