@@ -98,7 +98,7 @@ class TestReadOnlyMode(unittest.TestCase):
     def test_folder_accepts_readonly_param(self):
         """Test that Folder accepts read_only parameter."""
         try:
-            folder = Folder(
+            Folder(
                 folder_path="nonexistent/path",
                 key="image",
                 read_only=True,
