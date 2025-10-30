@@ -55,13 +55,6 @@ def example_folder_with_key():
     )
 
     # This will raise ValueError - key is missing
-    try:
-        folder = Folder(
-            folder_path="path/to/data",
-            # key not provided - will raise error
-        )
-    except ValueError as e:
-        print(f"Expected error: {e}")
 
 
 # Example 4: Avoiding bugs with redo=True and write=False
