@@ -72,9 +72,9 @@ file_shapes:
 When `read_only=True`, the `dataset_info.yaml` file will not be written, even if `write=True`.
 
 **Location:**
-- `search_file_tree`: line 31, 40, 104
-- `Folder`: line 150, 163, 174
-- `Dataset`: line 225, 241, 246
+- `search_file_tree`: line 35, 46, 121
+- `Folder`: line 140, 169, 175
+- `Dataset`: line 234, 243, 250
 
 ---
 
