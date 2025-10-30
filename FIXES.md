@@ -56,7 +56,7 @@ file_shapes:
 - Raises `ValueError` with helpful message if `key=None` is passed
 - Exception: Can skip key requirement by using `search_file_tree` with `redo=True` and `write=False`
 
-**Location:** `zea/zea/data/datasets.py:147-160`
+**Location:** `zea/zea/data/datasets.py:156-160`
 
 ---
 
