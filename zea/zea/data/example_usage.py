@@ -1,6 +1,6 @@
 """Example usage of the dataset module with all the fixes applied."""
 
-from datasets import Folder, Dataset, search_file_tree
+from zea.zea.data.datasets import Folder, Dataset, search_file_tree
 
 # Example 1: Using search_file_tree with tuple-to-list conversion
 # This will automatically convert tuples to lists in the YAML output
