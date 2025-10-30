@@ -57,7 +57,7 @@ def example_folder_with_key():
 def example_avoid_bugs():
     """Demonstrates how to avoid bugs as mentioned in docs."""
     # Use search_file_tree_kwargs to pass redo and write
-    folder = Folder(
+    _ = Folder(
         folder_path="path/to/data",
         key="image",
         search_file_tree_kwargs={
