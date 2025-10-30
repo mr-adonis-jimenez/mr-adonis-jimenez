@@ -111,7 +111,7 @@ class TestReadOnlyMode(unittest.TestCase):
     def test_dataset_accepts_readonly_param(self):
         """Test that Dataset accepts read_only parameter."""
         try:
-            dataset = Dataset(
+            Dataset(
                 folder_path="nonexistent/path",
                 key="image",
                 read_only=True,
