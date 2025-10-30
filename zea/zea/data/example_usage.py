@@ -48,11 +48,7 @@ def example_multiple_keys():
 def example_folder_with_key():
     """Demonstrates that key is now required for Folder."""
     # This will work - key is provided
-    folder = Folder(
-        folder_path="path/to/data",
-        key="image",  # Now required!
-        hdf5_key_for_length="image",
-    )
+# Removed unnecessary assignment to 'folder'
 
     # This will raise ValueError - key is missing
 
