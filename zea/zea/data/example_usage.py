@@ -29,12 +29,6 @@ def example_search_file_tree():
 def example_multiple_keys():
     """Demonstrates handling of multiple keys with different shapes."""
     # When hdf5_key_for_length is None, all keys are collected
-    metadata = search_file_tree(
-        folder_path="path/to/data",
-        key="image",  # Primary key for validation
-        hdf5_key_for_length=None,  # Collect shapes for ALL keys
-        write=True,
-    )
     # The resulting YAML will have:
     # file_shapes:
     #   image: [[124, 500, 686], [124, 500, 686], ...]
