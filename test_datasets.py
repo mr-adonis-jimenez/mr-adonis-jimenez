@@ -61,7 +61,7 @@ class TestFolderKeyRequirement(unittest.TestCase):
         # This will fail because the path doesn't exist, but we're testing
         # that the key validation passes
         try:
-            folder = Folder(
+            _ = Folder(
                 folder_path="nonexistent/path",
                 key="image",
                 search_file_tree_kwargs={'redo': True, 'write': False}
