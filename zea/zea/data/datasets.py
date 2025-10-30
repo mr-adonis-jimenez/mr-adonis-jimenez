@@ -197,8 +197,8 @@ class Folder:
 
             # Check that shapes are consistent per key
             for key_name, shapes in metadata.get('file_shapes', {}).items():
-                if shapes and len(set(shapes)) > 1:
-                    print(f"Warning: Inconsistent shapes for key '{key_name}': {set(shapes)}")
+                if shapes and len(set(tuple(s) for s in shapes)) > 1:
+                    print(f"Warning: Inconsistent shapes for key '{key_name}': {set(tuple(s) for s in shapes)}")
                     return False
 
         return True
