@@ -55,7 +55,7 @@ def search_file_tree(
     dataset_info_path = folder_path / "dataset_info.yaml"
 
     # Validate key requirement
-    if key is None and not (redo and not write):
+    if key is None and ((not redo) or write):
         raise ValueError(
             "The 'key' argument is required unless you pass redo=True and write=False. "
             "This key is needed for validation and determining file structure."
