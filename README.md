@@ -14,10 +14,10 @@
 ## 🔗 Featured Projects
 
 - **Inventory Lite** – Offline-first inventory tracker (IndexedDB, CSV/JSON, PWA)  
-  Live: https://YOUR-USERNAME.github.io/inventory-lite • Code: https://github.com/YOUR-USERNAME/inventory-lite
+  Live: https://mr-adonis-jimenez.github.io/inventory-lite • Code: https://github.com/mr-adonis-jimenez/inventory-lite
 
 - **Help Desk Mini** – Client-side ticketing (localStorage, search/filter, CSV export)  
-  Live: https://YOUR-USERNAME.github.io/help-desk-mini • Code: https://github.com/YOUR-USERNAME/help-desk-mini
+  Live: https://mr-adonis-jimenez.github.io/help-desk-mini • Code: https://github.com/mr-adonis-jimenez/help-desk-mini
 
 > Want a quick look? I keep both projects deployable on **GitHub Pages** with zero backend.
 
