@@ -11,7 +11,6 @@ All actively maintained repositories under this organization are in scope. Secur
 ## Reporting a vulnerability (responsible disclosure)
 - **Do not** open public issues for security problems.
 - Report privately via **GitHub Security Advisories**: https://github.com/mr-adonis-jimenez/mr-adonis-jimenez/security/advisories/new
-- Or email: **security@mr-adonis-jimenez.example** (PGP below).
 - Include reproduction steps, impact, affected versions/commits, and any PoC.
 
 We’ll acknowledge reports within **3 business days**, provide a status update within **7 days**, and coordinate a fix + disclosure timeline. We strive to release a patch within **30 days** for high severity issues.
