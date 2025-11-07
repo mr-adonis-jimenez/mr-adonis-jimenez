@@ -1,4 +1,4 @@
-## 👋 Hey, I’m Adonis or Donny (`@mr-adonis-jimenez`) – an **IT Support Technician** from **South Florida** who’s leveling up into the worlds of:
+## 👋 Hey, I’m Adonis (`@mr-adonis-jimenez`) – an **IT Support Technician** from **South Florida** who’s leveling up into the worlds of:
 
 - 🧪 API & Software QA Testing  
 - 🧮 Data & Software Engineering  
