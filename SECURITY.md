@@ -10,7 +10,7 @@ All actively maintained repositories under this organization are in scope. Secur
 
 ## Reporting a vulnerability (responsible disclosure)
 - **Do not** open public issues for security problems.
-- Report privately via **GitHub Security Advisories**: https://
+- Report privately via **GitHub Security Advisories**: https://github.com/mr-adonis-jimenez/mr-adonis-jimenez/security/advisories/new
 - Or email: **security@mr-adonis-jimenez.example** (PGP below).
 - Include reproduction steps, impact, affected versions/commits, and any PoC.
 
