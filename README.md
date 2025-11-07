@@ -43,4 +43,4 @@
 
 ## 🗺️ What I’m Building Next
 
-- Barcode scan + quick-add for Inventory Lite 
+- Barcode scan + quick-add for Inventory Lite: scan product barcodes to instantly add items to your inventory.
