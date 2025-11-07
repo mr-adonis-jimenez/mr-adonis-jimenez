@@ -6,7 +6,7 @@
 - 🧰 Daily stack: **HTML • CSS • JavaScript • GitHub Actions**.
 - 🌱 Learning: **TypeScript**, **Accessibility (a11y)**, and **testing in the browser**.
 - 💬 Ask me about: shipping static apps to **GitHub Pages** and automating repo hygiene.
-- 📫 Reach me: [mailto:contact@yourdomain.com](mailto:adonis-jimenez@outlook.com) · [LinkedIn](https://www.linkedin.com/in/adonisjimenez/)
+- 📫 Reach me: [adonis-jimenez@outlook.com](mailto:adonis-jimenez@outlook.com) · [LinkedIn](https://www.linkedin.com/in/adonisjimenez/)
 - ⚡ Fun: keyboard shortcuts evangelist; I map everything.
 
 ---
