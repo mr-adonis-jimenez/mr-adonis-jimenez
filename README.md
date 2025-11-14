@@ -5,7 +5,7 @@ By day I keep systems resilient and users productive. By night I break things, f
 
 ---
 
-## 🧑‍💻 What I Do Today
+## 🧑‍💻 What I Do
 
 ### 🔧 IT Support / Helpdesk
 Operational backbone work, including:
