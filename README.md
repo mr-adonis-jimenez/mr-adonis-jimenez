@@ -69,6 +69,6 @@ South Florida life keeps things balanced:
 
 ## 📫 Connect With Me
 Growing IT pro sharpening the path toward QA, Data Engineering, and DevOps.  
-Open to collaboration, mentorship, and real conversations about tech, collaboration, and/or occupational opportunities.
+Open to collaboration, mentorship, and real conversations about tech, projects, and/or occupational opportunities.
 
 Follow along as I evolve from support work into deeper engineering roles—one repo, one script, one experiment at a time. 😈
