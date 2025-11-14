@@ -1,83 +1,95 @@
-## 👋 Hey, I’m Adonis (`@mr-adonis-jimenez`) – an **IT Support Technician** from **South Florida** who’s leveling up into the worlds of:
+👋 Adonis Jimenez — IT Support Technician leveling up into QA, Data, and DevOps
 
-- 🧪 API & Software QA Testing  
-- 🧮 Data & Software Engineering  
-- ⚙️ DevOps & Automation  
+I’m Adonis (@mr-adonis-jimenez) — a South Florida IT Support Technician evolving from frontline troubleshooting into the deeper engineering stack.
+By day I keep systems resilient and users productive. By night I break things, fix things, automate things, and build the technical muscle that gets me one step closer to QA Engineering, Data Engineering, and DevOps.
 
-By day I keep systems and users happy. By night I’m breaking, fixing, and rebuilding things in code.
+🧑‍💻 What I Do Today
+🔧 IT Support / Helpdesk
 
----
+Operational backbone work, including:
 
-### 🧑‍💻 What I Do
+Hardware & software troubleshooting
 
-- 🔧 **IT Support / Helpdesk**
-  - Troubleshooting hardware & software issues  
-  - User account management, access, and permissions  
-  - Network diagnostics & basic infrastructure support  
+Identity, access, and permissions management
 
-- 🤖 **Automation & Scripting**
-  - Writing small tools and scripts to reduce repetitive work  
-  - Exploring task automation for IT workflows  
+Network diagnostics and foundational infrastructure support
 
-- 🧪 **QA & API Testing (In Progress)**
-  - Learning how to design test cases & test plans  
-  - Practicing API testing with tools like Postman  
-  - Getting into automation frameworks and CI/CD testing
+🤖 Automation & Scripting
 
----
+Driving efficiency where it’s overdue:
 
-### 🚀 What I’m Learning / Building
+Small tools and scripts to eliminate repetitive tasks
 
-I’m actively working on improving my skills in:
+Early-stage workflow automation for IT ops
 
-- 🧮 **Data & Software Engineering**  
-  - Databases, SQL, and data pipelines  
-  - Backend fundamentals & APIs  
+🧪 QA & API Testing (In Progress)
 
-- ⚙️ **DevOps**
-  - CI/CD concepts  
-  - Containers & cloud basics  
-  - Infrastructure-as-code (eventually 👀)
+Building a strong testing foundation:
 
-- 🧪 **Testing**
-  - API testing & automation  
-  - Writing reliable, repeatable tests
+Designing test cases and structured test plans
 
-I’ll be using this GitHub to share:
+Practicing API testing with Postman
 
-- Practice projects  
-- Automations & scripts  
-- Experiments with APIs, tests, and tooling  
+Exploring automation frameworks and CI/CD testing pipelines
 
----
+🚀 What I’m Building / Learning
+🧮 Data & Software Engineering
 
-### 🛠️ Tech Interests / Tools
+Strengthening engineering fundamentals:
 
-Some of the things I like to work with or learn more about:
+SQL, databases, and simple ETL-style pipelines
 
-- 💻 **Languages**: Python, JavaScript, Bash (and always adding more)  
-- 🗄️ **Data / Storage**: SQL, CSV/JSON workflows, simple ETL-type scripts  
-- 🧪 **Testing**: Postman, REST clients, basic testing frameworks  
-- ⚙️ **Ops**: Git, GitHub, CI/CD concepts, monitoring & logging basics  
+Backend principles, APIs, and data handling patterns
 
----
+⚙️ DevOps
 
-### 🌴 When I’m Not in Front of a Screen…
+Building the discipline one brick at a time:
 
-South Florida life, so obviously:
+CI/CD pipelines and automation concepts
 
-- 🏖️ **Beach time**  
-- 🎰 **Casino runs**  
-- 🏋🏽 **Gym sessions**  
-- 🍷 **Fine wine**  
-- 💃 **Enjoying good company & social vibes**
+Containers & cloud fundamentals
 
----
+Early exposure to infrastructure-as-code
 
-### 📫 Connect With Me
+🧪 Testing Engineering
 
-- 💼 Growing IT pro chasing the next level in **DevOps**, **Data**, and **QA**  
-- 🤝 Open to collaboration, mentoring, and tech conversations  
+Deepening QA capabilities:
 
-You can follow along here as I evolve from **IT Support** into a more **engineering-focused** career path.  
-Stay tuned for more repos, more automation, and more experiments. 😈
+API testing and automation
+
+Ensuring reliability and repeatability at scale
+
+All of this flows into practice projects, tools, scripts, and experiments you’ll find across this GitHub.
+
+🛠️ Tech Interests / Tools
+
+A growing toolbox that leans practical and hands-on:
+
+Languages: Python, JavaScript, Bash
+
+Data / Storage: SQL, CSV/JSON workflows, lightweight ETL
+
+Testing: Postman, REST clients, testing frameworks
+
+Ops: Git, GitHub, CI/CD concepts, monitoring & logging basics
+
+🌴 When I’m Not in Front of a Screen
+
+South Florida life keeps things balanced:
+
+Beach time
+
+Casino runs
+
+Gym sessions
+
+Good wine
+
+Good people
+
+📫 Connect With Me
+
+Growing IT pro sharpening the path toward QA, Data Engineering, and DevOps.
+Open to collaboration, mentorship, and real conversations about tech, process, and leveling up.
+
+Follow along as I evolve from support work into deeper engineering roles—one repo, one script, one experiment at a time. 😈
