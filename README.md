@@ -5,7 +5,7 @@ By day I keep systems resilient and users productive. By night I break things, f
 
 ---
 
-## 🧑‍💻 What I Do
+## 🧑‍💻 What I Do Today
 
 ### 🔧 IT Support / Helpdesk
 Operational backbone work, including:
@@ -68,5 +68,7 @@ South Florida life keeps things balanced:
 ---
 
 ## 📫 Connect With Me
-Growing IT pro sharpening th
+Growing IT pro sharpening the path toward QA, Data Engineering, and DevOps.  
+Open to collaboration, mentorship, and real conversations about tech, process, and leveling up.
 
+Follow along as I evolve from support work into deeper engineering roles—one repo, one script, one experiment at a time. 😈
