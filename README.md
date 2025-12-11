@@ -32,7 +32,7 @@ Marketing/SEO: GA4, GSC, WordPress SEO tools, schema, indexing workflows
 ⸻
 
 📈 My Working Philosophy
-loopI troubleshoot with discipline, automate with intention, and scale systems that ensure operations really work.
+I troubleshoot with discipline, automate with intention, and scale systems that ensure operations work.
 
 ⸻
 
