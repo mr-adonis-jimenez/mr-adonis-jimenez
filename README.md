@@ -1,74 +1,80 @@
-# 👋 Adonis Jimenez — IT Support Technician leveling up into QA, Data, and DevOps
+👋 Hi, I’m Adonis — Technical Support Engineer | IT & Cloud Specialist | Automation Architect
 
-I’m Adonis (@mr-adonis-jimenez) — a South Florida IT Support Technician evolving from frontline troubleshooting into the deeper engineering stack.  
-By day I keep systems resilient and users productive. By night I break things, fix things, automate things, and build the technical muscle that gets me one step closer to QA Engineering, Data Engineering, and DevOps.
+South Florida–based technologist delivering enterprise-grade support, rock-solid systems, and forward-thinking automation. I don’t just fix problems — I engineer stability, scalability, and efficiency across complex environments. Whether it’s cloud infrastructure, AI/ML workflows, DevOps pipelines, CMS/CRM architectures, or high-velocity digital operations, I build solutions that stand the test of time.
 
----
+I value tradition, I respect discipline, and I execute with modern tools. Practical first, innovative always.
 
-## 🧑‍💻 What I Do
+⸻
 
-### 🔧 IT Support / Helpdesk
-Operational backbone work, including:
-- Hardware & software troubleshooting  
-- Identity, access, and permissions management  
-- Network diagnostics and foundational infrastructure support  
+🚀 Core Focus Areas
+	•	Technical Support Engineering (Tier II/III, escalations, troubleshooting, incident response)
+	•	Cloud Computing (AWS, Azure, GCP, virtualization, containerization)
+	•	DevOps & Automation (CI/CD, GitHub Actions, Jenkins, Terraform, Ansible, RPA)
+	•	AI & Machine Learning (Python, model pipelines, predictive analytics)
+	•	Backend & API Engineering (Node.js, Python, REST, integrations)
+	•	CMS & CRM Systems (WordPress, Joomla, Odoo, Salesforce, HubSpot, Shopify, Zoho)
+	•	Digital Marketing & SEO (technical SEO, analytics, SEM/SEO tooling)
+	•	Data Engineering & Analytics (SQL, ETL, dashboards, Power BI, Tableau)
+	•	Algorithmic Trading (quant models, risk analytics, automation)
+	•	Crypto & Blockchain (wallet integrations, smart workflow automations)
 
-### 🤖 Automation & Scripting
-Driving efficiency where it’s overdue:
-- Small tools and scripts to eliminate repetitive tasks  
-- Early-stage workflow automation for IT ops  
+⸻
 
-### 🧪 QA & API Testing *(In Progress)*
-Building a strong testing foundation:
-- Designing test cases and structured test plans  
-- Practicing API testing with Postman  
-- Exploring automation frameworks and CI/CD testing pipelines  
+🛠️ Languages & Tools
 
----
+Languages: Python, SQL, JavaScript, TypeScript, Bash
+Frameworks/Stacks: Node.js, Express, FastAPI, React
+Cloud: AWS, Azure, GCP
+Automation/RPA: GitHub Actions, Zapier, n8n, Make, UiPath
+DevOps: Docker, Kubernetes, Terraform, Ansible
+Testing: Selenium, Playwright, Cypress, Postman
+Monitoring: Grafana, Datadog, CloudWatch
+Marketing/SEO: GA4, GSC, WordPress SEO tools, schema, indexing workflows
 
-## 🚀 What I’m Building / Learning
+⸻
 
-### 🧮 Data & Software Engineering
-Strengthening engineering fundamentals:
-- SQL, databases, and simple ETL-style pipelines  
-- Backend principles, APIs, and data handling patterns  
+📈 My Working Philosophy
 
-### ⚙️ DevOps
-Building the discipline one brick at a time:
-- CI/CD pipelines and automation concepts  
-- Containers & cloud fundamentals  
-- Early exposure to infrastructure-as-code  
+“Stability first, innovation second — but executed like both depend on each other.”
 
-### 🧪 Testing Engineering
-Deepening QA capabilities:
-- API testing and automation  
-- Ensuring reliability and repeatability at scale  
+I troubleshoot with discipline, automate with intention, and scale systems with a clear-eyed understanding of how operations really work. I don’t over-engineer. I build what lasts. And yes — I’m absolutely the guy who digs through logs until the root cause taps out.
 
-All of this flows into practice projects, tools, scripts, and experiments you’ll find across this GitHub.
+⸻
 
----
+🧩 What I Build
+	•	Cloud-ready technical support pipelines
+	•	Fully automated DevOps workflows
+	•	AI-driven tools and data processing engines
+	•	CRM/CMS integrations that never break on a Friday
+	•	SEO systems that move businesses up the rankings
+	•	Quant & algorithmic trading models for equities and crypto
+	•	End-to-end analytics dashboards and ETL pipelines
 
-## 🛠️ Tech Interests / Tools
-A growing toolbox that leans practical and hands-on:
-- **Languages:** Python, JavaScript, Bash  
-- **Data / Storage:** SQL, CSV/JSON workflows, lightweight ETL  
-- **Testing:** Postman, REST clients, testing frameworks  
-- **Ops:** Git, GitHub, CI/CD concepts, monitoring & logging basics  
+⸻
 
----
+🌴 South Florida Roots, Global Impact
 
-## 🌴 When I’m Not in Front of a Screen
-South Florida life keeps things balanced:
-- Beach time  
-- Casino runs  
-- Gym sessions  
-- Good wine  
-- Good people  
+I operate out of the Broward / Palm Beach corridor, supporting teams across the U.S. and abroad. Local mindset, enterprise execution. Heat, humidity, and high uptime — the trifecta.
 
----
+⸻
 
-## 📫 Connect With Me
-Growing IT pro sharpening the path toward QA, Data Engineering, and DevOps.  
-Open to collaboration, mentorship, and real conversations about tech, projects, and/or occupational opportunities.
+📫 Connect With Me
+	•	GitHub: @mr-adonis-jimenez
+	•	LinkedIn: linkedin.com/in/adonis-jimenez
+	•	Email: adonis-jimenez@outlook.com
 
-Follow along as I evolve from support work into deeper engineering roles—one repo, one script, one experiment at a time. 😈
+⸻
+
+📌 Current Projects
+	•	Regional Geo-Analytics API (geospatial intelligence, automation)
+	•	Help-Desk Intake System (intelligent ticket routing)
+	•	Inventory Lite (lightweight, practical inventory framework)
+	•	Spades Empire (AI-driven game logic + cloud infra)
+	•	LeadGen Automation (Python + Selenium + enrichment engine)
+
+⸻
+
+🧠 Fun Fact
+
+I run DevOps pipelines, ML models, and algorithmic trading bots with the same philosophy:
+If uptime drops, something dies. Preferably not your portfolio.
