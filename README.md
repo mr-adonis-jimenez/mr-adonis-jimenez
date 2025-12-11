@@ -1,8 +1,6 @@
 👋 Hi, I’m Adonis — Technical Support Engineer | IT & Cloud Specialist | Automation Architect
 
-South Florida–based technologist delivering enterprise-grade support, rock-solid systems, and forward-thinking automation. I don’t just fix problems — I engineer stability, scalability, and efficiency across complex environments. Whether it’s cloud infrastructure, AI/ML workflows, DevOps pipelines, CMS/CRM architectures, or high-velocity digital operations, I build solutions that stand the test of time.
-
-I value tradition, I respect discipline, and I execute with modern tools. Practical first, innovative always.
+South Florida–based technologist delivering enterprise-grade support, rock-solid systems, and forward-thinking automation. Whether it’s cloud infrastructure, AI/ML workflows, DevOps pipelines, CMS/CRM architectures, or high-velocity digital operations, I develop innovative solutions and execute with modern tools.
 
 ⸻
 
@@ -26,18 +24,15 @@ Languages: Python, SQL, JavaScript, TypeScript, Bash
 Frameworks/Stacks: Node.js, Express, FastAPI, React
 Cloud: AWS, Azure, GCP
 Automation/RPA: GitHub Actions, Zapier, n8n, Make, UiPath
-DevOps: Docker, Kubernetes, Terraform, Ansible
-Testing: Selenium, Playwright, Cypress, Postman
+DevOps: GitLab, Jenkins, Docker, Kubernetes, Terraform, Ansible
+Testing: Postman, Mulesoft, Apigee, Selenium, Playwright, Cypress
 Monitoring: Grafana, Datadog, CloudWatch
 Marketing/SEO: GA4, GSC, WordPress SEO tools, schema, indexing workflows
 
 ⸻
 
 📈 My Working Philosophy
-
-“Stability first, innovation second — but executed like both depend on each other.”
-
-I troubleshoot with discipline, automate with intention, and scale systems with a clear-eyed understanding of how operations really work. I don’t over-engineer. I build what lasts. And yes — I’m absolutely the guy who digs through logs until the root cause taps out.
+loopI troubleshoot with discipline, automate with intention, and scale systems that ensure operations really work.
 
 ⸻
 
@@ -52,15 +47,9 @@ I troubleshoot with discipline, automate with intention, and scale systems with 
 
 ⸻
 
-🌴 South Florida Roots, Global Impact
-
-I operate out of the Broward / Palm Beach corridor, supporting teams across the U.S. and abroad. Local mindset, enterprise execution. Heat, humidity, and high uptime — the trifecta.
-
-⸻
-
 📫 Connect With Me
 	•	GitHub: @mr-adonis-jimenez
-	•	LinkedIn: linkedin.com/in/adonis-jimenez
+	•	LinkedIn: linkedin.com/in/adonisjimenez
 	•	Email: adonis-jimenez@outlook.com
 
 ⸻
@@ -74,7 +63,3 @@ I operate out of the Broward / Palm Beach corridor, supporting teams across the 
 
 ⸻
 
-🧠 Fun Fact
-
-I run DevOps pipelines, ML models, and algorithmic trading bots with the same philosophy:
-If uptime drops, something dies. Preferably not your portfolio.
