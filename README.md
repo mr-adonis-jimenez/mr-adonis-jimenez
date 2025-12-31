@@ -41,7 +41,7 @@ I troubleshoot with discipline, automate with intention, & scale systems that en
 - Cloud-ready technical support pipelines  
 - Fully automated DevOps workflows  
 - AI-driven tools & data processing engines  
-- CRM/CMS integrations
+- CRM & CMS integrations
 - SEO systems that move businesses up the rankings  
 - Quant & algorithmic trading models for equities & crypto  
 - End-to-end analytics dashboards & ETL pipelines  
