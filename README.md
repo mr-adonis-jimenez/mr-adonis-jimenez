@@ -57,8 +57,9 @@ I troubleshoot with discipline, automate with intention, & scale systems that en
 
 ## 📌 Current Projects
 - **Regional Geo-Analytics API** (geospatial intelligence, automation)  
-- **Help-Desk Intake System** (intelligent ticket routing)  
-- **Inventory Lite** (lightweight, practical inventory framework)
+- **Help Desk Intake** (intelligent ticket routing)  
+- **Local Vault** (lightweight, practical inventory framework)
+- **Log Triage Sandbox** (interactive logging & analytics environment)
 - **LeadGen Automation** (Python + Selenium + enrichment engine)
 
 ---
