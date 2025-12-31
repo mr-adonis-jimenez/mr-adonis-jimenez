@@ -28,7 +28,7 @@ South Florida–based technologist delivering enterprise-grade support, rock-sol
 **DevOps:** GitLab, Jenkins, Docker, Kubernetes, Terraform, Ansible  
 **Testing:** Postman, Mulesoft, Apigee, Selenium, Playwright, Cypress  
 **Monitoring:** Grafana, Datadog, CloudWatch  
-**Marketing/SEO:** GA4, GSC, WordPress SEO tools, schema, indexing workflows  
+**Marketing/SEO:** Google Analytics, WordPress SEO tools, schema, indexing workflows  
 
 ---
 
