@@ -12,7 +12,7 @@ South Florida–based technologist delivering enterprise-grade support, rock-sol
 - **AI & Machine Learning** (Python, model pipelines, predictive analytics)  
 - **Backend & API Engineering** (Node.js, Python, REST, integrations)  
 - **CMS & CRM Systems** (WordPress, Joomla, Odoo, Salesforce, HubSpot, Shopify, Zoho)  
-- **Digital Marketing & SEO** (technical SEO, analytics, SEM/SEO tooling)  
+- **Digital Marketing & SEO** (technical SEO, analytics, SEO/SEM tooling)  
 - **Data Engineering & Analytics** (SQL, ETL, dashboards, Power BI, Tableau)  
 - **Algorithmic Trading** (quant models, risk analytics, automation)  
 - **Crypto & Blockchain** (wallet integrations, smart workflow automations)
