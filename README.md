@@ -60,6 +60,5 @@ I troubleshoot with discipline, automate with intention, & scale systems that en
 - **Help Desk Intake** (intelligent ticket routing)  
 - **Local Vault** (lightweight, practical inventory framework)
 - **Log Triage Sandbox** (interactive logging & analytics environment)
-- **LeadGen Automation** (Python + Selenium + enrichment engine)
 
 ---
