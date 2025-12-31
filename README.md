@@ -33,18 +33,18 @@ South Florida–based technologist delivering enterprise-grade support, rock-sol
 ---
 
 ## 📈 My Working Philosophy
-I troubleshoot with discipline, automate with intention, and scale systems that ensure operations work.
+I troubleshoot with discipline, automate with intention, & scale systems that ensure operations work.
 
 ---
 
 ## 🧩 What I Build
 - Cloud-ready technical support pipelines  
 - Fully automated DevOps workflows  
-- AI-driven tools and data processing engines  
-- CRM/CMS integrations that never break on a Friday  
+- AI-driven tools & data processing engines  
+- CRM/CMS integrations
 - SEO systems that move businesses up the rankings  
-- Quant & algorithmic trading models for equities and crypto  
-- End-to-end analytics dashboards and ETL pipelines  
+- Quant & algorithmic trading models for equities & crypto  
+- End-to-end analytics dashboards & ETL pipelines  
 
 ---
 
@@ -58,8 +58,7 @@ I troubleshoot with discipline, automate with intention, and scale systems that 
 ## 📌 Current Projects
 - **Regional Geo-Analytics API** (geospatial intelligence, automation)  
 - **Help-Desk Intake System** (intelligent ticket routing)  
-- **Inventory Lite** (lightweight, practical inventory framework)  
-- **Spades Empire** (AI-driven game logic + cloud infra)  
+- **Inventory Lite** (lightweight, practical inventory framework)
 - **LeadGen Automation** (Python + Selenium + enrichment engine)
 
 ---
