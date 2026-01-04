@@ -57,8 +57,7 @@ I troubleshoot with discipline, automate with intention, & scale systems that en
 
 ## 📌 Current Projects
 - **Geo-Analytics API** (geospatial intelligence, automation)  
-- **Help Desk Intake** (intelligent ticket routing)  
-- **Local Vault** (lightweight, practical inventory framework)
+- **Help Desk Intake** (intelligent ticket routing)
 - **Log Triage Sandbox** (interactive logging & analytics environment)
 - **Python Web Scraper** (modular Python web scraping system)
 - **Sales Horizon** (intuitive sales forecasting dashboard)
