@@ -1,50 +1,39 @@
 ![Profile Views](https://komarev.com/ghpvc/?username=mr-adonis-jimenez&color=blue&style=flat-square&label=Profile+Views)
 
-# 👋 Hi, I’m **Adonis**  
-### Technical Support Engineer | IT & Cloud Specialist | Automation Architect
+# 👋 Hi, I’m **Adonis**   IT → Cloud & DevOps Specialist
 
-South Florida–based technologist delivering enterprise-grade support, rock-solid systems, and forward-thinking automation. Whether it’s cloud infrastructure, AI/ML workflows, DevOps pipelines, CMS/CRM architectures, or high-velocity digital operations, I develop innovative solutions and execute with modern tools.
+Software engineer delivering enterprise-grade support, rock-solid systems, and forward-thinking automation. Whether it’s cloud infrastructure, AI/ML workflows, DevOps pipelines, or high-velocity digital operations, I develop innovative solutions and execute with modern tools.
 
 ---
 
 ## 🚀 Core Focus Areas
-- **Technical Support Engineering** (Tier II/III, escalations, troubleshooting, incident response)  
 - **Cloud Computing** (AWS, Azure, GCP, virtualization, containerization)  
 - **DevOps & Automation** (CI/CD, GitHub Actions, Jenkins, Terraform, Ansible, RPA)  
 - **AI & Machine Learning** (Python, model pipelines, predictive analytics)  
 - **Backend & API Engineering** (Node.js, Python, REST, integrations)  
-- **CMS & CRM Systems** (WordPress, Joomla, Odoo, Salesforce, HubSpot, Shopify, Zoho)  
-- **Digital Marketing & SEO** (technical SEO, analytics, SEO/SEM tooling)  
-- **Data Engineering & Analytics** (SQL, ETL, dashboards, Power BI, Tableau)  
-- **Algorithmic Trading** (quant models, risk analytics, automation)  
-- **Crypto & Blockchain** (wallet integrations, smart workflow automations)
+- **Data Engineering & Analytics** (SQL, ETL, dashboards, Power BI, Tableau)
 
 ---
 
 ## 🛠️ Languages & Tools
 
-**Languages:** Python, SQL, JavaScript, TypeScript, Bash  
-**Frameworks/Stacks:** Node.js, Express, FastAPI, React  
+**Languages:** Python, SQL, TypeScript, Bash  
+**Frameworks/Stacks:** Node.js, React, Django, Fast API  
 **Cloud:** AWS, Azure, GCP  
 **Automation/RPA:** GitHub Actions, Zapier, n8n, Make, UiPath  
 **DevOps:** GitLab, Jenkins, Docker, Kubernetes, Terraform, Ansible  
-**Testing:** Postman, Mulesoft, Apigee, Selenium, Playwright, Cypress  
-**Monitoring:** Grafana, Datadog, CloudWatch  
-**Marketing/SEO:** Google Analytics, WordPress SEO tools, schema, indexing workflows  
+**Testing:** Postman, Mulesoft, Apigee, Selenium, Playwright, Cypress
 
 ---
 
 ## 📈 My Working Philosophy
-I troubleshoot with discipline, automate with intention, & scale systems that ensure operations work.
+I debug with discipline, automate with intention, & scale systems that ensure operations work.
 
 ---
 
 ## 🧩 What I Build
-- Cloud-ready technical support pipelines  
 - Fully automated DevOps workflows  
 - AI-driven tools & data processing engines  
-- CRM & CMS integrations
-- SEO systems that move businesses up the rankings  
 - Quant & algorithmic trading models for equities & crypto  
 - End-to-end analytics dashboards & ETL pipelines  
 
@@ -57,11 +46,4 @@ I troubleshoot with discipline, automate with intention, & scale systems that en
 
 ---
 
-## 📌 Current Projects
-- **Geo-Analytics API** (geospatial intelligence, automation)  
-- **Help Desk Intake** (intelligent ticket routing)
-- **Log Triage Sandbox** (interactive logging & analytics environment)
-- **Python Web Scraper** (modular Python web scraping system)
-- **Sales Horizon** (intuitive sales forecasting dashboard)
 
----
