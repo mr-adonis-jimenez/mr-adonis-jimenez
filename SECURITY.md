@@ -1,213 +1,180 @@
-# ===================================================================
-# File: .github/SECURITY.md
-# ===================================================================
-# NOTE: Edit org/repo names, emails, and SLA days as needed.
-
 # Security Policy
 
-## Supported projects & versions
-All actively maintained repositories under this organization are in scope. Security fixes are prioritized for the latest minor release line unless otherwise stated in a repo’s README.
+## Supported Projects & Versions
 
-## Reporting a vulnerability (responsible disclosure)
-- **Do not** open public issues for security problems.
-- Report privately via **GitHub Security Advisories**: https://github.com/mr-adonis-jimenez/mr-adonis-jimenez/security/advisories/new
-- Include reproduction steps, impact, affected versions/commits, and any PoC.
-
-We’ll acknowledge reports within **3 business days**, provide a status update within **7 days**, and coordinate a fix + disclosure timeline. We strive to release a patch within **30 days** for high severity issues.
-
-## Preferred languages
-English, Spanish.
-
-## Bounties
-No formal bounty program. Reasonable rewards (credit, swag, or stipend) may be offered at our discretion for high-impact findings.
-
-## Disclosure
-We request a **90-day** disclosure window by default, or earlier once a fix is available and users have had time to update. CVEs may be requested via GHSA; we’ll assist.
-
-## Out of scope (examples)
-- Clickjacking on static pages without sensitive actions
-- Missing SPF/DMARC/SSL best-practices on non-prod domains
-- Rate-limit or brute-force without demonstrated impact
-- Dependency advisories that are already public and patched
-
-## PGP
-Fingerprint: `0000 1111 2222 3333 4444 5555 6666 7777 8888 9999`
-Key: https://mr-adonis-jimenez.example/pgp.txt
-
-## Hardening references
-- Use latest releases
-- Enable 2FA for org members
-- Require signed commits for protected branches
-- Use environment/organization secrets with least privilege
+All actively maintained repositories under [@mr-adonis-jimenez](https://github.com/mr-adonis-jimenez) are in scope for security reports. Security fixes are prioritized for the latest release unless otherwise stated in a repository's README.
 
 ---
 
-# ===================================================================
-# File: .github/ISSUE_TEMPLATE/config.yml
-# ===================================================================
-# Deflects security reports away from public issues to private channels.
+## 🚨 Reporting a Vulnerability
 
-blank_issues_enabled: false
-contact_links:
-  - name: Report a security vulnerability (private)
-    url: https://github.com/OWNER/REPO/security/advisories/new
-    about: This creates a private advisory thread with maintainers.
-  - name: Email the security team
-    url: mailto:security@mr-adonis-jimenez.example
-    about: Use if the advisory form is unavailable.
+### Responsible Disclosure Process
 
-# ===================================================================
-# File: .github/CODEOWNERS
-# ===================================================================
-# Ensures security-savvy reviewers are auto-requested on changes to critical areas.
+**⚠️ DO NOT open public issues for security vulnerabilities.**
 
-# Core
-* @mr-adonis-jimenez/security-team
+Please report security issues privately through one of these channels:
 
-# Optional tighter scoping examples:
-# /infrastructure/ @mr-adonis-jimenez/sec-infra
-# /pkg/ @mr-adonis-jimenez/maintainers
+### 1. GitHub Security Advisories (Preferred)
 
-# ===================================================================
-# File: .github/dependabot.yml
-# ===================================================================
+🔗 **[Create Private Security Advisory](https://github.com/mr-adonis-jimenez/mr-adonis-jimenez/security/advisories/new)**
 
-version: 2
-updates:
-  - package-ecosystem: "github-actions"
-    directory: "/"
-    schedule: { interval: "weekly" }
-    open-pull-requests-limit: 5
-  - package-ecosystem: "npm"
-    directory: "/"
-    schedule: { interval: "weekly" }
-    versioning-strategy: increase
-    groups:
-      minor-and-patch:
-        applies-to: version-updates
-        update-types: ["minor", "patch"]
-  - package-ecosystem: "pip"
-    directory: "/"
-    schedule: { interval: "weekly" }
-    insecure-external-code-execution: deny
-  # Add more ecosystems as needed (gomod, maven, gradle, cargo, nuget, composer, etc.)
+This creates a private thread with maintainers for coordinated disclosure.
 
-# ===================================================================
-# File: .github/workflows/codeql.yml
-# ===================================================================
-# GitHub-native static analysis for supported languages.
+### 2. Email
 
-name: "CodeQL"
-on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
-  schedule:
-    - cron: "24 2 * * 1"
-permissions:
-  contents: read
-  security-events: write
-  actions: read
-jobs:
-  analyze:
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        language: [ "javascript", "python" ]  # Add languages as needed: cpp, go, java, ruby
-    steps:
-      - uses: actions/checkout@v4
-      - uses: github/codeql-action/init@v3
-        with:
-          languages: ${{ matrix.language }}
-      - uses: github/codeql-action/autobuild@v3
-      - uses: github/codeql-action/analyze@v3
+📧 **[adonis-jimenez@outlook.com](mailto:adonis-jimenez@outlook.com)**
 
-# ===================================================================
-# File: .github/workflows/scorecard.yml
-# ===================================================================
-# OSSF Scorecard supply-chain checks + SARIF upload.
+Use this method if the advisory form is unavailable or for urgent issues.
 
-name: "OSSF Scorecard"
-on:
-  branch_protection_rule:
-  schedule:
-    - cron: "37 1 * * 1"
-  push:
-    branches: [ "main" ]
-permissions:
-  actions: read
-  contents: read
-  id-token: write
-  security-events: write
-  pull-requests: read
-jobs:
-  analysis:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          persist-credentials: false
-      - uses: ossf/scorecard-action@v2.3.3
-        with:
-          results_file: results.sarif
-          results_format: sarif
-          publish_results: true
-      - uses: github/codeql-action/upload-sarif@v3
-        with:
-          sarif_file: results.sarif
+### 3. PGP Encrypted Email (High Sensitivity)
 
-# ===================================================================
-# File: .github/workflows/gitleaks.yml
-# ===================================================================
-# Secret scanning on pushes/PRs to complement GitHub's native scanning.
+For highly sensitive disclosures, use PGP encryption:
 
-name: "Gitleaks"
-on:
-  pull_request:
-  push:
-    branches: [ "main", "develop" ]
-permissions:
-  contents: read
-  security-events: write
-jobs:
-  scan:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0  # why: scan history in PRs
-      - name: Run Gitleaks
-        uses: gitleaks/gitleaks-action@v2
-        env:
-          GITLEAKS_LICENSE: ${{ secrets.GITLEAKS_LICENSE }} # why: optional, enables enterprise policy
-        with:
-          args: >-
-            detect
-            --redact
-            --no-banner
-            --report-format sarif
-            --report-path gitleaks.sarif
-      - name: Upload SARIF
-        uses: github/codeql-action/upload-sarif@v3
-        with:
-          sarif_file: gitleaks.sarif
+- **Email:** adonis-jimenez@outlook.com
+- **PGP Key:** Available upon request
+- **Fingerprint:** Contact via email to verify
 
-# ===================================================================
-# File: .github/pull_request_template.md
-# ===================================================================
-# Nudges for secure PRs.
+---
 
-## Summary
-- What changed? Why?
+## 📝 What to Include in Your Report
 
-## Security considerations
-- Any auth/ACL/crypto/input-validation changes?
-- Any secrets, tokens, or keys touched?
-- Backwards compatibility and migration risks?
+To help us understand and address the issue quickly, please include:
 
-## Checklist
-- [ ] Added/updated tests
-- [ ] No secrets committed
-- [ ] Dependencies updated safely
-- [ ] Docs updated
+- **Description:** Clear explanation of the vulnerability
+- **Impact:** What can an attacker achieve?
+- **Affected Versions:** Which releases or commits are vulnerable?
+- **Reproduction Steps:** Detailed steps to reproduce the issue
+- **Proof of Concept:** Code, screenshots, or video demonstration
+- **Suggested Fix:** If you have ideas for remediation
+- **Disclosure Timeline:** Your preferred disclosure schedule
+
+---
+
+## ⏱️ Response Timeline
+
+We take security seriously and commit to:
+
+| Stage | Timeline |
+|-------|----------|
+| **Initial Acknowledgment** | Within 3 business days |
+| **Status Update** | Within 7 days |
+| **Fix Development** | 30 days for high severity issues |
+| **Disclosure** | 90 days after report (or when fix is available) |
+
+---
+
+## 🌐 Preferred Languages
+
+- English
+- Spanish (Español)
+
+---
+
+## 🏆 Recognition & Rewards
+
+While we don't have a formal bug bounty program, we may offer:
+
+- ⭐ **Public Credit:** Recognition in release notes and security advisories
+- 🎯 **Swag:** GitHub-themed merchandise for significant findings
+- 💵 **Stipend:** Reasonable rewards at our discretion for high-impact discoveries
+- 🏅 **Hall of Fame:** Featured in our security acknowledgments
+
+---
+
+## 📅 Coordinated Disclosure
+
+We request a **90-day disclosure window** by default to:
+
+1. Develop and test a comprehensive fix
+2. Coordinate with affected downstream projects
+3. Allow users time to update
+4. Prepare security advisories and CVEs
+
+We're flexible on this timeline and will work with you to find a mutually agreeable disclosure date.
+
+### CVE Assignment
+
+For qualifying vulnerabilities, we can:
+- Request CVEs through GitHub Security Advisories (GHSA)
+- Coordinate with MITRE or other CVE Numbering Authorities
+- Assist with CVE descriptions and impact assessments
+
+---
+
+## ❌ Out of Scope
+
+The following are generally **not considered security vulnerabilities**:
+
+- ❌ Clickjacking on static pages without sensitive actions
+- ❌ Missing security headers (SPF/DMARC/HSTS) on non-production domains
+- ❌ Rate limiting or brute-force attacks without demonstrated impact
+- ❌ Dependency advisories that are already public and patched
+- ❌ Social engineering attacks requiring significant user interaction
+- ❌ Denial of service via resource exhaustion (unless severe)
+- ❌ Issues in third-party dependencies (report to upstream project)
+- ❌ Self-XSS or issues requiring physical access
+
+If unsure, please report it anyway—we'll make the determination.
+
+---
+
+## 🛡️ Security Best Practices
+
+When working with this organization's repositories:
+
+### For Contributors
+- ✅ Use the latest stable release
+- ✅ Enable 2FA on your GitHub account
+- ✅ Sign commits with GPG keys
+- ✅ Never commit secrets, tokens, or credentials
+- ✅ Review dependencies for known vulnerabilities
+- ✅ Follow principle of least privilege
+
+### For Repository Maintainers
+- ✅ Enable branch protection rules
+- ✅ Require signed commits for protected branches
+- ✅ Use GitHub Security Advisories for private discussions
+- ✅ Enable Dependabot security updates
+- ✅ Use environment secrets with proper scoping
+- ✅ Regularly audit access permissions
+- ✅ Enable CodeQL scanning for supported languages
+
+---
+
+## 📚 Security Resources
+
+- [GitHub Security Documentation](https://docs.github.com/en/code-security)
+- [OWASP Top 10](https://owasp.org/www-project-top-ten/)
+- [CWE List](https://cwe.mitre.org/)
+- [CVE Program](https://www.cve.org/)
+- [OSSF Scorecard](https://github.com/ossf/scorecard)
+
+---
+
+## 📞 Contact Information
+
+| Method | Details |
+|--------|----------|
+| **Primary Contact** | Adonis Jimenez |
+| **Email** | adonis-jimenez@outlook.com |
+| **GitHub** | [@mr-adonis-jimenez](https://github.com/mr-adonis-jimenez) |
+| **LinkedIn** | [linkedin.com/in/adonisjimenez](https://linkedin.com/in/adonisjimenez) |
+| **Response Time** | 3 business days |
+
+---
+
+## 📜 Version History
+
+| Version | Date | Changes |
+|---------|------|----------|
+| 1.0 | 2026-01-22 | Initial comprehensive security policy |
+
+---
+
+<div align="center">
+
+**Thank you for helping keep our projects secure!** 🔒
+
+*This policy is subject to change. Check back regularly for updates.*
+
+</div>
