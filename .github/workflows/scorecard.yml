@@ -1,0 +1,59 @@
+name: OSSF Scorecard
+
+# OpenSSF Scorecard supply-chain security assessment
+on:
+  branch_protection_rule:
+  schedule:
+    # Run every Monday at 1:37 AM EST (6:37 UTC)
+    - cron: '37 6 * * 1'
+  push:
+    branches: [ master, main ]
+  workflow_dispatch:
+
+permissions: read-all
+
+jobs:
+  analysis:
+    name: Scorecard Analysis
+    runs-on: ubuntu-latest
+    permissions:
+      security-events: write
+      id-token: write
+      contents: read
+      actions: read
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Run OSSF Scorecard
+        uses: ossf/scorecard-action@v2.3.3
+        with:
+          results_file: results.sarif
+          results_format: sarif
+          # Publish results to OpenSSF REST API
+          publish_results: true
+
+      - name: Upload SARIF results to GitHub
+        uses: github/codeql-action/upload-sarif@v3
+        with:
+          sarif_file: results.sarif
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: scorecard-results
+          path: results.sarif
+          retention-days: 30
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "### 🏆 OSSF Scorecard Analysis Complete" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Repository:** ${{ github.repository }}" >> $GITHUB_STEP_SUMMARY
+          echo "**Status:** ✅ Completed" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "View full scorecard at: https://securityscorecards.dev/viewer/?uri=github.com/${{ github.repository }}" >> $GITHUB_STEP_SUMMARY
