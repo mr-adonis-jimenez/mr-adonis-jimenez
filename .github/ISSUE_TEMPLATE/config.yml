@@ -1,0 +1,23 @@
+# Issue template configuration
+blank_issues_enabled: false
+
+contact_links:
+  - name: 🔒 Report a Security Vulnerability (Private)
+    url: https://github.com/mr-adonis-jimenez/mr-adonis-jimenez/security/advisories/new
+    about: Create a private security advisory to report vulnerabilities responsibly
+  
+  - name: 📧 Email the Maintainer
+    url: mailto:adonis-jimenez@outlook.com
+    about: Direct email for urgent security issues or private matters
+  
+  - name: 💬 GitHub Discussions
+    url: https://github.com/mr-adonis-jimenez/mr-adonis-jimenez/discussions
+    about: Ask questions, share ideas, or discuss general topics
+  
+  - name: 🐛 Report a Bug
+    url: https://github.com/mr-adonis-jimenez/mr-adonis-jimenez/issues/new?labels=bug&template=bug_report.md
+    about: Create a detailed bug report to help improve the project
+  
+  - name: ✨ Request a Feature
+    url: https://github.com/mr-adonis-jimenez/mr-adonis-jimenez/issues/new?labels=enhancement&template=feature_request.md
+    about: Suggest new features or improvements
