@@ -1,0 +1,19 @@
+# Code Owners Configuration
+# https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Global code owner - all files require review from @mr-adonis-jimenez
+* @mr-adonis-jimenez
+
+# Security-sensitive files
+/SECURITY.md @mr-adonis-jimenez
+/.github/workflows/ @mr-adonis-jimenez
+/.github/dependabot.yml @mr-adonis-jimenez
+/.github/CODEOWNERS @mr-adonis-jimenez
+
+# Documentation
+/README.md @mr-adonis-jimenez
+/CONTRIBUTING.md @mr-adonis-jimenez
+/CODE_OF_CONDUCT.md @mr-adonis-jimenez
+
+# Configuration files
+/.gitignore @mr-adonis-jimenez
