@@ -33,17 +33,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # GITLEAKS_LICENSE: ${{ secrets.GITLEAKS_LICENSE }} # Optional enterprise
         with:
-          args: >
-            detect
-            --redact
-            --no-banner
-            --report-format sarif
-            --report-path gitleaks.sarif
-            --verbose
-
       - name: Upload SARIF results
         if: always()
-        uses: github/codeql-action/upload-sarif@v3
+        uses: github/codeql-action/upload-sarif@v4
         with:
           sarif_file: gitleaks.sarif
 
