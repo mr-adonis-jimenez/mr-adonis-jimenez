@@ -37,7 +37,7 @@ jobs:
           publish_results: true
 
       - name: Upload SARIF results to GitHub
-        uses: github/codeql-action/upload-sarif@v3
+        uses: github/codeql-action/upload-sarif@v4
         with:
           sarif_file: results.sarif
 
@@ -48,12 +48,3 @@ jobs:
           path: results.sarif
           retention-days: 30
 
-      - name: Summary
-        if: always()
-        run: |
-          echo "### 🏆 OSSF Scorecard Analysis Complete" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "**Repository:** ${{ github.repository }}" >> $GITHUB_STEP_SUMMARY
-          echo "**Status:** ✅ Completed" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "View full scorecard at: https://securityscorecards.dev/viewer/?uri=github.com/${{ github.repository }}" >> $GITHUB_STEP_SUMMARY
