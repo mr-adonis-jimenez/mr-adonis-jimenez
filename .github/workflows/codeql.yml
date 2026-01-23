@@ -1,13 +1,12 @@
 name: CodeQL Security Analysis
 
-# GitHub-native static analysis for security vulnerabilities
 on:
   push:
     branches: [ master, main ]
   pull_request:
     branches: [ master, main ]
   schedule:
-    # Run every Monday at 2:24 AM EST (7:24 UTC)
+    # Every Monday at 07:24 UTC (02:24 EST)
     - cron: '24 7 * * 1'
   workflow_dispatch:
 
@@ -21,34 +20,10 @@ jobs:
     name: Analyze Code
     runs-on: ubuntu-latest
     timeout-minutes: 30
-    
+
     strategy:
       fail-fast: false
       matrix:
-        # Supported: cpp, csharp, go, java, javascript, python, ruby, swift
-    
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+        language: [ javascript, python ]  # adjust as needed
 
-      - name: Initialize CodeQL
-      uses: github/codeql-action/init@v4        with:
-          languages: ${{ matrix.language }}
-          # Override queries with custom security pack
-          # queries: security-extended,security-and-quality
-
-      - name: Autobuild
-      uses: github/codeql-action/autobuild@v4
-      - name: Perform CodeQL Analysis
-      uses: github/codeql-action/analyze@v4        with:
-          category: "/language:${{ matrix.language }}"
-
-      - name: Upload results to Security tab
-        if: always()
-        run: |
-          echo "### 🔍 CodeQL Analysis Complete" >> $GITHUB_STEP_SUMMARY
-          echo "**Language:** ${{ matrix.language }}" >> $GITHUB_STEP_SUMMARY
-          echo "**Status:** ✅ Completed" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "View results in the [Security tab](https://github.com/${{ github.repository }}/security/code-scanning)" >> $GITHUB_STEP_SUMMARY
+    steps:
