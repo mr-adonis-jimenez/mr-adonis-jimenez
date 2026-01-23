@@ -33,7 +33,7 @@
 ```python
 class AdonisJimenez:
     def __init__(self):
-        self.role = "Cloud & DevOps Specialist"
+        self.role = "IT Specialist & Software Engineer"
         self.focus = [
             "Cloud Computing (AWS, Azure, GCP)",
             "DevOps & CI/CD Automation",
