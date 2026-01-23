@@ -1,4 +1,6 @@
 ![Profile Views](https://komarev.com/ghpvc/?username=mr-adonis-jimenez&color=blue&style=flat-square&label=Profile+Views)
+![Security](https://github.com/mr-adonis-jimenez/log-triage-sandbox/actions/workflows/security.yml/badge.svg)
+
 
 <div align="center">
 
