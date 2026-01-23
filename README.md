@@ -2,10 +2,8 @@
 
 <div align="center">
 
-# 👋 Hi, I'm **Adonis Jimenez**
-## IT → Cloud & DevOps Specialist
-
-*Software engineer delivering enterprise-grade support, rock-solid systems, and forward-thinking automation.*
+# 👋 Hi, I'm **Adonis Jimenez - IT Specialist & Software Engineer**
+## *delivering enterprise-grade support, rock-solid systems, and forward-thinking automation.*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/adonisjimenez)
 [![Website](https://img.shields.io/badge/Website-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://adonisjimenez.com)
@@ -35,7 +33,7 @@
 ```python
 class AdonisJimenez:
     def __init__(self):
-        self.role = "Cloud & DevOps Specialist"
+        self.role = "IT Specialist & Software Engineer"
         self.focus = [
             "Cloud Computing (AWS, Azure, GCP)",
             "DevOps & CI/CD Automation",
@@ -96,10 +94,6 @@ class AdonisJimenez:
 ## 💼 Featured Projects
 
 <div align="center">
-
-### 🏪 [Retail Analytics Platform](https://github.com/mr-adonis-jimenez)
-**Tech Stack:** Python • PostgreSQL • Docker • FastAPI • Power BI  
-*Enterprise-grade analytics solution with automated ETL pipelines and real-time dashboards*
 
 ---
 
