@@ -1,0 +1,84 @@
+# Dependabot configuration for automated dependency updates
+version: 2
+
+updates:
+  # GitHub Actions workflow dependencies
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "06:00"
+      timezone: "America/New_York"
+    open-pull-requests-limit: 5
+    reviewers:
+      - "mr-adonis-jimenez"
+    labels:
+      - "dependencies"
+      - "github-actions"
+    commit-message:
+      prefix: "chore"
+      prefix-development: "chore"
+      include: "scope"
+
+  # Python dependencies (if you add requirements.txt or pyproject.toml)
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "06:00"
+      timezone: "America/New_York"
+    versioning-strategy: increase
+    open-pull-requests-limit: 10
+    reviewers:
+      - "mr-adonis-jimenez"
+    labels:
+      - "dependencies"
+      - "python"
+    # Reject external code execution for security
+    insecure-external-code-execution: deny
+    # Group minor and patch updates together
+    groups:
+      python-minor-patch:
+        applies-to: version-updates
+        update-types:
+          - "minor"
+          - "patch"
+
+  # NPM dependencies (if you add package.json)
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "06:00"
+      timezone: "America/New_York"
+    versioning-strategy: increase
+    open-pull-requests-limit: 10
+    reviewers:
+      - "mr-adonis-jimenez"
+    labels:
+      - "dependencies"
+      - "javascript"
+    groups:
+      npm-minor-patch:
+        applies-to: version-updates
+        update-types:
+          - "minor"
+          - "patch"
+
+  # Docker dependencies (if you add Dockerfile)
+  - package-ecosystem: "docker"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "06:00"
+      timezone: "America/New_York"
+    open-pull-requests-limit: 5
+    reviewers:
+      - "mr-adonis-jimenez"
+    labels:
+      - "dependencies"
+      - "docker"

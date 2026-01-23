@@ -1,0 +1,64 @@
+name: Update Profile README
+
+# Auto-update profile stats and metrics daily
+on:
+  schedule:
+    # Run daily at 6 AM EST (11:00 UTC)
+    - cron: '0 11 * * *'
+  workflow_dispatch: # Allow manual triggers
+  push:
+    branches:
+      - master
+    paths:
+      - '.github/workflows/profile-readme-update.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    name: Update Profile Statistics
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update timestamp in README
+        run: |
+          # Update last updated timestamp
+          current_date=$(date -u '+%Y-%m-%d %H:%M:%S UTC')
+          sed -i "s/Last Updated:.*/Last Updated:** $current_date \u26a1/" README.md
+          
+          # Verify change was made
+          if git diff --quiet README.md; then
+            echo "No changes to commit"
+          else
+            echo "README updated with timestamp: $current_date"
+          fi
+
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          
+          if git diff --quiet README.md; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          
+          git add README.md
+          git commit -m "chore: Auto-update profile README timestamp [skip ci]"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Summary
+        run: |
+          echo "### ✅ Profile README Updated" >> $GITHUB_STEP_SUMMARY
+          echo "Updated on: $(date -u '+%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Next Update:** Tomorrow at 6 AM EST" >> $GITHUB_STEP_SUMMARY
