@@ -6,7 +6,6 @@ on:
   pull_request:
     branches: [ master, main ]
   schedule:
-    # Every Monday at 07:24 UTC (02:24 EST)
     - cron: '24 7 * * 1'
   workflow_dispatch:
 
@@ -24,6 +23,20 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        language: [ javascript, python ]  # adjust as needed
+        language: [ javascript, python ]
 
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Initialize CodeQL
+        uses: github/codeql-action/init@v4
+        with:
+          languages: ${{ matrix.language }}
+
+      - name: Perform CodeQL Analysis
+        uses: github/codeql-action/analyze@v4
+        with:
+          category: "/language:${{ matrix.language }}"
