@@ -41,14 +41,14 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      - name: Checkout repository
+      name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Initialize CodeQL
-        uses: github/codeql-action/init@v3
-        with:
-          languages: javascript, python
-          queries: security-extended
+      name: Initialize CodeQL
+  uses: github/codeql-action/init@v3
+  with:
+    queries: security-extended
+
 
       - name: Autobuild
         uses: github/codeql-action/autobuild@v3
