@@ -25,10 +25,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        # Add languages as repository grows
-        language: [ 'python', 'javascript' ]
         # Supported: cpp, csharp, go, java, javascript, python, ruby, swift
-    steps:
+    
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
