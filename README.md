@@ -95,10 +95,6 @@ class AdonisJimenez:
 
 <div align="center">
 
-### 🏪 [Retail Analytics Platform](https://github.com/mr-adonis-jimenez)
-**Tech Stack:** Python • PostgreSQL • Docker • FastAPI • Power BI  
-*Enterprise-grade analytics solution with automated ETL pipelines and real-time dashboards*
-
 ---
 
 ### 🤖 [Help Desk Intake System](https://github.com/mr-adonis-jimenez)
