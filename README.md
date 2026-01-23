@@ -2,8 +2,8 @@
 
 <div align="center">
 
-# 👋 Hi, I'm **Adonis Jimenez**
-## IT Specialist & Software Engineer *delivering enterprise-grade support, rock-solid systems, and forward-thinking automation.*
+# 👋 Hi, I'm **Adonis Jimenez IT Specialist & Software Engineer**
+## *delivering enterprise-grade support, rock-solid systems, and forward-thinking automation.*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/adonisjimenez)
 [![Website](https://img.shields.io/badge/Website-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://adonisjimenez.com)
