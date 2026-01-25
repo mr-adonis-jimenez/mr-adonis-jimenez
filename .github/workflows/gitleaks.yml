@@ -3,9 +3,9 @@ name: Gitleaks Secret Scanning
 # Detect hardcoded secrets, API keys, and credentials
 on:
   push:
-    branches: [ master, main, develop ]
+    branches: [master, main, develop]
   pull_request:
-    branches: [ master, main ]
+    branches: [master, main]
   workflow_dispatch:
   schedule:
     # Run every day at 3 AM EST (8:00 UTC)
@@ -20,7 +20,7 @@ jobs:
   scan:
     name: Secret Detection
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -33,6 +33,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # GITLEAKS_LICENSE: ${{ secrets.GITLEAKS_LICENSE }} # Optional enterprise
         with:
+          args: detect --report-format sarif --report-path gitleaks.sarif
+
       - name: Upload SARIF results
         if: always()
         uses: github/codeql-action/upload-sarif@v4
@@ -56,7 +58,7 @@ jobs:
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              body: '⚠️ **Gitleaks detected potential secrets in this PR.**\n\nPlease review the [Security tab](https://github.com/${{ github.repository }}/security/code-scanning) for details.\n\n**Action Required:** Remove any exposed credentials and rotate them immediately.'
+              body: '⚠️ **Gitleaks detected potential secrets in this PR.**\n\nPlease review the **Security → Code scanning** tab for details.\n\n**Action Required:** Remove any exposed credentials and rotate them immediately.'
             })
 
       - name: Summary
@@ -65,7 +67,6 @@ jobs:
           echo "### 🔍 Gitleaks Secret Scan Complete" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "**Status:** ${{ job.status }}" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
           if [ "${{ job.status }}" == "failure" ]; then
             echo "⚠️ **Secrets detected!** Review the Security tab immediately." >> $GITHUB_STEP_SUMMARY
           else
