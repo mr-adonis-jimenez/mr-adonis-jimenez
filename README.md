@@ -97,15 +97,11 @@ class AdonisJimenez:
 
 ---
 
-### 🤖 [Help Desk Intake System](https://github.com/mr-adonis-jimenez)
-**Tech Stack:** Node.js • React • MongoDB • GitHub Actions  
-*Automated ticket routing with ML-powered categorization and SLA tracking*
+### 🤖 
 
 ---
 
-### 📊 [Sales Forecasting Dashboard](https://github.com/mr-adonis-jimenez)
-**Tech Stack:** Python • scikit-learn • Tableau • AWS Lambda  
-*Predictive analytics platform with time-series modeling and scenario planning*
+### 📊 
 
 ---
 
