@@ -18,11 +18,11 @@
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mr-adonis-jimenez&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mr-adonis-jimenez&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github&cache_seconds=1800)
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=mr-adonis-jimenez&theme=tokyonight&hide_border=true)
+![GitHub Streak](https://streak-stats.demolab.com?user=mr-adonis-jimenez&theme=tokyonight&hide_border=true&cache_seconds=1800)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mr-adonis-jimenez&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mr-adonis-jimenez&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&cache_seconds=1800)
 
 </div>
 
@@ -97,21 +97,17 @@ class AdonisJimenez:
 
 ---
 
-### 🤖 [Help Desk Intake System](https://github.com/mr-adonis-jimenez)
-**Tech Stack:** Node.js • React • MongoDB • GitHub Actions  
-*Automated ticket routing with ML-powered categorization and SLA tracking*
-
----
-
-### 📊 [Sales Forecasting Dashboard](https://github.com/mr-adonis-jimenez)
-**Tech Stack:** Python • scikit-learn • Tableau • AWS Lambda  
-*Predictive analytics platform with time-series modeling and scenario planning*
-
----
+###    [Docker Sklearn API](https://github.com/mr-adonis-jimenez)
+**Tech Stack:** Python | FastAPI | Docker
+*Dockerized scikit-learn prediction API*
 
 ### 🔍 [Log Triage Sandbox](https://github.com/mr-adonis-jimenez)
-**Tech Stack:** Python • Elasticsearch • Docker • Kubernetes  
+**Tech Stack:** TypeScript | Node.js 
 *Automated log analysis tool with anomaly detection and alerting*
+
+###     [Geo-Analytics API](https://github.com/mr-adonis-jimenez)
+**Tech Stack:** Python | FastAPI | scikit-learn 
+*Data-driven analytics platform for regional/geographic data visualization*
 
 </div>
 
