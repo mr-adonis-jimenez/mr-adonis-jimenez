@@ -97,17 +97,21 @@ class AdonisJimenez:
 
 ---
 
-###    [Docker Sklearn API](https://github.com/mr-adonis-jimenez)
-**Tech Stack:** Python | FastAPI | Docker
-*Dockerized scikit-learn prediction API*
+### 📊 Retail Analytics (SQL + Dashboard)
+**Tech Stack:** PostgreSQL | Python | pandas | Matplotlib  
+*Production-grade SQL analytics platform and web dashboard for retail operations, delivering interactive insights with clean, auditable data visualizations.*
 
-### 🔍 [Log Triage Sandbox](https://github.com/mr-adonis-jimenez)
-**Tech Stack:** TypeScript | Node.js 
-*Automated log analysis tool with anomaly detection and alerting*
+---
 
-###     [Geo-Analytics API](https://github.com/mr-adonis-jimenez)
-**Tech Stack:** Python | FastAPI | scikit-learn 
-*Data-driven analytics platform for regional/geographic data visualization*
+### 🌍 Geo-Analytics API
+**Tech Stack:** Python | FastAPI | Docker  
+*Data-driven analytics platform that transforms raw geographic and regional datasets into clear, actionable intelligence.*
+
+---
+
+### 🔍 Log Triage Sandbox
+**Tech Stack:** TypeScript | JavaScript  
+*Automated log analysis tool with anomaly detection and alerting.*
 
 </div>
 
