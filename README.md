@@ -6,7 +6,7 @@
 
 ![GitHub Skyline](https://skyline.github.com/mr-adonis-jimenez/2026)
 
-View My 2026 Skyline | Download STL for 3D Printing
+[View My 2026 Skyline](https://skyline.github.com/mr-adonis-jimenez/2026) | [Download STL for 3D Printing](https://skyline.github.com/mr-adonis-jimenez/2026.stl)
 
 </div>
 
