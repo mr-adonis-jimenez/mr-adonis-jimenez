@@ -24,6 +24,8 @@
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mr-adonis-jimenez&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)
 
+![Git Grade](https://github-readme-grade.vercel.app/api?username=mr-adonis-jimenez&theme=tokyonight&hide_border=true)
+
 </div>
 
 ---
@@ -182,6 +184,6 @@ class AdonisJimenez:
 
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer)
 
-**Last Updated:** 2026-01-22 21:18:41 UTC 26a1
+**Last Updated:** 2026-02-01 18:16:00 UTC
 
 </div>
