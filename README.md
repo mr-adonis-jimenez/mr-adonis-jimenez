@@ -97,21 +97,27 @@ class AdonisJimenez:
 
 ---
 
-### 🤖 [Help Desk Intake System](https://github.com/mr-adonis-jimenez)
-**Tech Stack:** Node.js • React • MongoDB • GitHub Actions  
-*Automated ticket routing with ML-powered categorization and SLA tracking*
+### 🤖 [Docker scikit-learn API](https://github.com/mr-adonis-jimenez/docker-sklearn-api)
+**Tech Stack:** Python • scikit-learn • Docker • Flask  
+*Dockerized ML prediction API with trained model serialization and REST endpoints* [cite:3]
 
 ---
 
-### 📊 [Sales Forecasting Dashboard](https://github.com/mr-adonis-jimenez)
-**Tech Stack:** Python • scikit-learn • Tableau • AWS Lambda  
-*Predictive analytics platform with time-series modeling and scenario planning*
+### 📊 [Retail Web Analytics Dashboard](https://github.com/mr-adonis-jimenez/retail-web-analytics-dashboard)
+**Tech Stack:** Python • Streamlit • Pandas • Data Visualization  
+*Interactive dashboard for sales performance, inventory trends, and operational KPIs* [cite:3]
 
 ---
 
-### 🔍 [Log Triage Sandbox](https://github.com/mr-adonis-jimenez)
-**Tech Stack:** Python • Elasticsearch • Docker • Kubernetes  
-*Automated log analysis tool with anomaly detection and alerting*
+### 🗄️ [Retail Analytics SQL](https://github.com/mr-adonis-jimenez/retail-analytics-sql)
+**Tech Stack:** SQL • PostgreSQL • Analytics • Reporting  
+*Production-grade analytics queries for retail sales, inventory optimization, and operational reporting* [cite:3]
+
+---
+
+### 🔧 [Node API Platform](https://github.com/mr-adonis-jimenez/node-api-platform)
+**Tech Stack:** Node.js • Express • REST APIs • Automation  
+*Production-ready backend platform for secure, maintainable API development* [cite:3]
 
 </div>
 
