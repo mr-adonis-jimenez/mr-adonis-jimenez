@@ -1,5 +1,16 @@
 ![Profile Views](https://komarev.com/ghpvc/?username=mr-adonis-jimenez&color=blue&style=flat-square&label=Profile+Views)
 
+## 🏔️ GitHub Skyline
+
+<div align="center">
+
+![GitHub Skyline](https://skyline.github.com/mr-adonis-jimenez/2026)
+
+[View My 2026 Skyline](https://skyline.github.com/mr-adonis-jimenez/2026) | [Download STL for 3D Printing](https://skyline.github.com/mr-adonis-jimenez/2026.stl)
+
+</div>
+
+
 <div align="center">
 
 # 👋 Hi, I'm **Adonis Jimenez - IT Specialist & Software Engineer**
