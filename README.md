@@ -97,21 +97,21 @@ class AdonisJimenez:
 
 ---
 
-### 🤖 [Help Desk Intake System](https://github.com/mr-adonis-jimenez)
-**Tech Stack:** Node.js • React • MongoDB • GitHub Actions  
-*Automated ticket routing with ML-powered categorization and SLA tracking*
+### 📊 Retail Analytics (SQL + Dashboard)
+**Tech Stack:** PostgreSQL | Python | pandas | Matplotlib  
+*Production-grade SQL analytics platform and web dashboard for retail operations, delivering interactive insights with clean, auditable data visualizations.*
 
 ---
 
-### 📊 [Sales Forecasting Dashboard](https://github.com/mr-adonis-jimenez)
-**Tech Stack:** Python • scikit-learn • Tableau • AWS Lambda  
-*Predictive analytics platform with time-series modeling and scenario planning*
+### 🌍 Geo-Analytics API
+**Tech Stack:** Python | FastAPI | Docker  
+*Data-driven analytics platform that transforms raw geographic and regional datasets into clear, actionable intelligence.*
 
 ---
 
-### 🔍 [Log Triage Sandbox](https://github.com/mr-adonis-jimenez)
-**Tech Stack:** Python • Elasticsearch • Docker • Kubernetes  
-*Automated log analysis tool with anomaly detection and alerting*
+### 🔍 Log Triage Sandbox
+**Tech Stack:** TypeScript | JavaScript  
+*Automated log analysis tool with anomaly detection and alerting.*
 
 </div>
 
