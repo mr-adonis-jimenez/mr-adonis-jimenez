@@ -240,3 +240,7 @@ stats.json
 metrics.json
 *.draft.md
 mr-adonis-jimenez/
+
+# AI tool configs
+.claude/
+.gemini/
