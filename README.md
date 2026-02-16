@@ -15,14 +15,26 @@
 ---
 
 ## 📊 GitHub Statistics
-
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mr-adonis-jimenez&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mr-adonis-jimenez&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github&cache_seconds=1800)
+![GitHub Streak](https://streak-stats.demolab.com?user=mr-adonis-jimenez&theme=tokyonight&hide_border=true&cache_seconds=1800)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mr-adonis-jimenez&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&cache_seconds=1800)
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=mr-adonis-jimenez&theme=tokyonight&hide_border=true)
+</div>
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mr-adonis-jimenez&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)
+---
+
+## 🏆 GitHub Profile Grade & Summary
+<div align="center">
+
+![GitHub Profile Grade](https://github-profile-trophy.vercel.app/?username=mr-adonis-jimenez&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=10)
+
+![Profile Details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mr-adonis-jimenez&theme=tokyonight)
+![Repos per Language](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mr-adonis-jimenez&theme=tokyonight)
+![Most Commit Language](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=mr-adonis-jimenez&theme=tokyonight)
+![Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=mr-adonis-jimenez&theme=tokyonight)
+![Productive Time](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=mr-adonis-jimenez&theme=tokyonight&utcOffset=-5)
 
 </div>
 
@@ -95,23 +107,27 @@ class AdonisJimenez:
 
 <div align="center">
 
----
-
-### 🤖 [Help Desk Intake System](https://github.com/mr-adonis-jimenez)
-**Tech Stack:** Node.js • React • MongoDB • GitHub Actions  
-*Automated ticket routing with ML-powered categorization and SLA tracking*
+[![Retail Web Analytics Dashboard](https://github-readme-stats.vercel.app/api/pin/?username=mr-adonis-jimenez&repo=retail-web-analytics-dashboard&theme=tokyonight&hide_border=true)](https://github.com/mr-adonis-jimenez/retail-web-analytics-dashboard)
+[![Docker Sklearn API](https://github-readme-stats.vercel.app/api/pin/?username=mr-adonis-jimenez&repo=docker-sklearn-api&theme=tokyonight&hide_border=true)](https://github.com/mr-adonis-jimenez/docker-sklearn-api)
+[![Node API Platform](https://github-readme-stats.vercel.app/api/pin/?username=mr-adonis-jimenez&repo=node-api-platform&theme=tokyonight&hide_border=true)](https://github.com/mr-adonis-jimenez/node-api-platform)
 
 ---
 
-### 📊 [Sales Forecasting Dashboard](https://github.com/mr-adonis-jimenez)
-**Tech Stack:** Python • scikit-learn • Tableau • AWS Lambda  
-*Predictive analytics platform with time-series modeling and scenario planning*
+### 📊 Retail Web Analytics Dashboard
+**Tech Stack:** Python | Pandas | Matplotlib | Streamlit
+*Web-based retail analytics dashboard providing interactive insights into sales performance, inventory trends, and operational KPIs using clean, auditable data visualizations.*
 
 ---
 
-### 🔍 [Log Triage Sandbox](https://github.com/mr-adonis-jimenez)
-**Tech Stack:** Python • Elasticsearch • Docker • Kubernetes  
-*Automated log analysis tool with anomaly detection and alerting*
+### 🤖 Docker Sklearn API
+**Tech Stack:** Python | Scikit-learn | Docker | REST API
+*Dockerized scikit-learn prediction API demonstrating model training, serialization, and REST endpoint exposure in a lightweight container.*
+
+---
+
+### 🔧 Node API Platform
+**Tech Stack:** Node.js | Express | REST API
+*Production-ready Node.js application demonstrating API development, automation, and secure, maintainable backend engineering practices.*
 
 </div>
 
@@ -182,6 +198,6 @@ class AdonisJimenez:
 
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer)
 
-**Last Updated:** 2026-01-22 21:18:41 UTC 26a1
+**Last Updated:** 2026-02-16 UTC
 
 </div>
