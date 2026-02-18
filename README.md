@@ -18,6 +18,9 @@
 
 <div align="center">
 
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=donnydaemon&show_icons=true&rank_icon=letter&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9)
+
+
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mr-adonis-jimenez&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true)
 
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=mr-adonis-jimenez&theme=tokyonight&hide_border=true)
