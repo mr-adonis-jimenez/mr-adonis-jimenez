@@ -2,8 +2,9 @@
 
 <div align="center">
 
-# 👋 Hi, I'm **Adonis Jimenez - IT Specialist & Software Engineer**
-## *delivering enterprise-grade support, rock-solid systems, and forward-thinking automation.*
+# 👋 Hi, I'm **Adonis Jimenez** - a DevOps‑minded software engineer & technical support specialist who develops data, API, 
+& automation projects that connect IT operations with analytics & modern cloud tooling. My work spans Dockerized ML APIs, 
+SQL‑driven retail analytics, observability sandboxes, & workflow automation, showcasing a focus on reliability, performance, and real‑world business impact.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/adonisjimenez)
 [![Website](https://img.shields.io/badge/Website-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://adonisjimenez.com)
